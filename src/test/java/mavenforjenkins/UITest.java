@@ -10,9 +10,8 @@ import org.testng.annotations.Test;
 
 public class UITest 
 {
-
-	@Parameters("Browser")
 	@Test
+	@Parameters("browser")
 	public void startBrowser(String browserName)
 	{
 		System.out.println("Parameter value is "+browserName);
