@@ -15,6 +15,7 @@ public class UITest
 	public void startBrowser(String browserName)
 	{
 		System.out.println("Test is started");
+		browserName = "Chrome" ;
 		System.out.println("Parameter value is "+browserName);
 		WebDriver driver=null;
 		
