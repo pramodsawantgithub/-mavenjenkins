@@ -13,7 +13,7 @@ public class UITest
 	@Test
 	@Parameters("browser")
 	public void startBrowser(String browserName)
-	 {
+	  {
 		System.out.println("Test is started check before with parameters s" +browserName);
 		browserName = "Chrome" ;
 		System.out.println("Parameter value is "+browserName);
